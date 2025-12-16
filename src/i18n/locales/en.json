@@ -1,0 +1,108 @@
+{
+  "nav": {
+    "home": "Home",
+    "appointments": "Appointments",
+    "horses": "Horses",
+    "messages": "Messages",
+    "profile": "Profile"
+  },
+  "dashboard": {
+    "welcome": "Welcome",
+    "linkedOrganizations": "Linked Organizations",
+    "todayAppointments": "Today's Appointments",
+    "viewAll": "View All",
+    "noAppointments": "No appointments today",
+    "statistics": "Statistics",
+    "totalHorses": "Total Horses",
+    "completedAppointments": "Completed",
+    "pendingAppointments": "Pending"
+  },
+  "appointments": {
+    "title": "Appointments",
+    "upcoming": "Upcoming",
+    "past": "Past",
+    "all": "All",
+    "noAppointments": "No appointments",
+    "status": {
+      "scheduled": "Scheduled",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    }
+  },
+  "horses": {
+    "title": "Horses",
+    "search": "Search for a horse...",
+    "noHorses": "No horses found",
+    "accessLevel": {
+      "view": "View Only",
+      "edit": "Edit",
+      "full": "Full Access"
+    },
+    "details": {
+      "medicalRecords": "Medical Records",
+      "appointments": "Appointments",
+      "info": "Information",
+      "breed": "Breed",
+      "age": "Age",
+      "years": "years",
+      "color": "Color",
+      "weight": "Weight",
+      "kg": "kg",
+      "owner": "Owner"
+    }
+  },
+  "organizations": {
+    "title": "Organizations",
+    "stables": "Stables",
+    "clinics": "Clinics",
+    "labs": "Labs",
+    "relationship": {
+      "employee": "Employee",
+      "freelancer": "Freelancer"
+    },
+    "horsesCount": "horses"
+  },
+  "messages": {
+    "title": "Messages",
+    "search": "Search conversations...",
+    "noMessages": "No messages",
+    "typeMessage": "Type a message..."
+  },
+  "notifications": {
+    "title": "Notifications",
+    "noNotifications": "No notifications",
+    "markAllRead": "Mark all as read"
+  },
+  "profile": {
+    "title": "My Profile",
+    "editProfile": "Edit Profile",
+    "settings": "Settings",
+    "language": "Language",
+    "notifications": "Notifications",
+    "darkMode": "Dark Mode",
+    "logout": "Logout",
+    "about": "About"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "filter": "Filter",
+    "back": "Back"
+  },
+  "login": {
+    "title": "Login",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Login",
+    "forgotPassword": "Forgot password?",
+    "noAccount": "Don't have an account?",
+    "register": "Register"
+  }
+}
