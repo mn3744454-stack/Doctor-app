@@ -1,7 +1,8 @@
-import { Bell, ChevronRight } from 'lucide-react';
+import { Bell, ChevronRight, User } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { notifications } from '@/data/mockData';
+import LanguageSwitcher from '@/components/LanguageSwitcher';
 
 interface TopHeaderProps {
   title?: string;
@@ -19,38 +20,51 @@ export default function TopHeader({
 
   return (
     <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border safe-area-inset-top">
-      <div className="flex items-center justify-between px-4 h-14">
-        <div className="flex items-center gap-2">
+      <div className="flex items-center justify-between px-4 h-16">
+        <div className="flex items-center gap-3">
           {showBack && (
             <Button
               variant="ghost"
               size="icon"
               onClick={() => navigate(-1)}
-              className="h-9 w-9 hover:bg-sand/50"
+              className="h-10 w-10 hover:bg-sand/50"
             >
-              <ChevronRight className="h-5 w-5" />
+              <ChevronRight className="h-6 w-6" />
             </Button>
           )}
           {title && (
-            <h1 className="text-lg font-semibold text-foreground">{title}</h1>
+            <h1 className="text-xl font-bold text-foreground">{title}</h1>
           )}
         </div>
         
-        {showNotifications && (
+        <div className="flex items-center gap-1">
+          <LanguageSwitcher />
+          
+          {showNotifications && (
+            <Button
+              variant="ghost"
+              size="icon"
+              onClick={() => navigate('/notifications')}
+              className="h-10 w-10 relative hover:bg-sand/50"
+            >
+              <Bell className="h-6 w-6" />
+              {unreadCount > 0 && (
+                <span className="absolute -top-0.5 -right-0.5 h-5 w-5 rounded-full bg-primary text-primary-foreground text-xs flex items-center justify-center font-bold shadow-soft">
+                  {unreadCount}
+                </span>
+              )}
+            </Button>
+          )}
+          
           <Button
             variant="ghost"
             size="icon"
-            onClick={() => navigate('/notifications')}
-            className="h-9 w-9 relative hover:bg-sand/50"
+            onClick={() => navigate('/profile')}
+            className="h-10 w-10 hover:bg-sand/50"
           >
-            <Bell className="h-5 w-5" />
-            {unreadCount > 0 && (
-              <span className="absolute -top-0.5 -right-0.5 h-5 w-5 rounded-full bg-primary text-primary-foreground text-xs flex items-center justify-center font-medium shadow-soft">
-                {unreadCount}
-              </span>
-            )}
+            <User className="h-6 w-6" />
           </Button>
-        )}
+        </div>
       </div>
     </header>
   );

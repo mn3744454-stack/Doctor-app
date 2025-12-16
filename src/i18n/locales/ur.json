@@ -1,0 +1,108 @@
+{
+  "nav": {
+    "home": "ہوم",
+    "appointments": "اپوائنٹمنٹس",
+    "horses": "گھوڑے",
+    "messages": "پیغامات",
+    "profile": "پروفائل"
+  },
+  "dashboard": {
+    "welcome": "خوش آمدید",
+    "linkedOrganizations": "منسلک تنظیمیں",
+    "todayAppointments": "آج کی اپوائنٹمنٹس",
+    "viewAll": "سب دیکھیں",
+    "noAppointments": "آج کوئی اپوائنٹمنٹ نہیں",
+    "statistics": "اعدادوشمار",
+    "totalHorses": "کل گھوڑے",
+    "completedAppointments": "مکمل",
+    "pendingAppointments": "زیر التواء"
+  },
+  "appointments": {
+    "title": "اپوائنٹمنٹس",
+    "upcoming": "آنے والی",
+    "past": "گزشتہ",
+    "all": "سب",
+    "noAppointments": "کوئی اپوائنٹمنٹ نہیں",
+    "status": {
+      "scheduled": "شیڈول",
+      "completed": "مکمل",
+      "cancelled": "منسوخ"
+    }
+  },
+  "horses": {
+    "title": "گھوڑے",
+    "search": "گھوڑا تلاش کریں...",
+    "noHorses": "کوئی گھوڑا نہیں ملا",
+    "accessLevel": {
+      "view": "صرف دیکھیں",
+      "edit": "ترمیم",
+      "full": "مکمل رسائی"
+    },
+    "details": {
+      "medicalRecords": "طبی ریکارڈ",
+      "appointments": "اپوائنٹمنٹس",
+      "info": "معلومات",
+      "breed": "نسل",
+      "age": "عمر",
+      "years": "سال",
+      "color": "رنگ",
+      "weight": "وزن",
+      "kg": "کلوگرام",
+      "owner": "مالک"
+    }
+  },
+  "organizations": {
+    "title": "تنظیمیں",
+    "stables": "اصطبلات",
+    "clinics": "کلینک",
+    "labs": "لیب",
+    "relationship": {
+      "employee": "ملازم",
+      "freelancer": "فری لانسر"
+    },
+    "horsesCount": "گھوڑے"
+  },
+  "messages": {
+    "title": "پیغامات",
+    "search": "بات چیت تلاش کریں...",
+    "noMessages": "کوئی پیغام نہیں",
+    "typeMessage": "پیغام لکھیں..."
+  },
+  "notifications": {
+    "title": "اطلاعات",
+    "noNotifications": "کوئی اطلاع نہیں",
+    "markAllRead": "سب پڑھا ہوا نشان زد کریں"
+  },
+  "profile": {
+    "title": "میرا پروفائل",
+    "editProfile": "پروفائل میں ترمیم",
+    "settings": "ترتیبات",
+    "language": "زبان",
+    "notifications": "اطلاعات",
+    "darkMode": "ڈارک موڈ",
+    "logout": "لاگ آؤٹ",
+    "about": "ایپ کے بارے میں"
+  },
+  "common": {
+    "loading": "لوڈ ہو رہا ہے...",
+    "error": "ایک خرابی ہوئی",
+    "retry": "دوبارہ کوشش کریں",
+    "save": "محفوظ کریں",
+    "cancel": "منسوخ کریں",
+    "delete": "حذف کریں",
+    "edit": "ترمیم",
+    "add": "شامل کریں",
+    "search": "تلاش",
+    "filter": "فلٹر",
+    "back": "واپس"
+  },
+  "login": {
+    "title": "لاگ ان",
+    "email": "ای میل",
+    "password": "پاس ورڈ",
+    "submit": "لاگ ان",
+    "forgotPassword": "پاس ورڈ بھول گئے؟",
+    "noAccount": "اکاؤنٹ نہیں ہے؟",
+    "register": "رجسٹر کریں"
+  }
+}

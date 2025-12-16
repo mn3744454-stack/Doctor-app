@@ -1,0 +1,108 @@
+{
+  "nav": {
+    "home": "होम",
+    "appointments": "अपॉइंटमेंट",
+    "horses": "घोड़े",
+    "messages": "संदेश",
+    "profile": "प्रोफ़ाइल"
+  },
+  "dashboard": {
+    "welcome": "स्वागत है",
+    "linkedOrganizations": "जुड़े संगठन",
+    "todayAppointments": "आज की अपॉइंटमेंट",
+    "viewAll": "सभी देखें",
+    "noAppointments": "आज कोई अपॉइंटमेंट नहीं",
+    "statistics": "आंकड़े",
+    "totalHorses": "कुल घोड़े",
+    "completedAppointments": "पूर्ण",
+    "pendingAppointments": "लंबित"
+  },
+  "appointments": {
+    "title": "अपॉइंटमेंट",
+    "upcoming": "आगामी",
+    "past": "पिछली",
+    "all": "सभी",
+    "noAppointments": "कोई अपॉइंटमेंट नहीं",
+    "status": {
+      "scheduled": "निर्धारित",
+      "completed": "पूर्ण",
+      "cancelled": "रद्द"
+    }
+  },
+  "horses": {
+    "title": "घोड़े",
+    "search": "घोड़ा खोजें...",
+    "noHorses": "कोई घोड़ा नहीं मिला",
+    "accessLevel": {
+      "view": "केवल देखें",
+      "edit": "संपादित करें",
+      "full": "पूर्ण पहुंच"
+    },
+    "details": {
+      "medicalRecords": "चिकित्सा रिकॉर्ड",
+      "appointments": "अपॉइंटमेंट",
+      "info": "जानकारी",
+      "breed": "नस्ल",
+      "age": "उम्र",
+      "years": "साल",
+      "color": "रंग",
+      "weight": "वजन",
+      "kg": "किलो",
+      "owner": "मालिक"
+    }
+  },
+  "organizations": {
+    "title": "संगठन",
+    "stables": "अस्तबल",
+    "clinics": "क्लिनिक",
+    "labs": "लैब",
+    "relationship": {
+      "employee": "कर्मचारी",
+      "freelancer": "फ्रीलांसर"
+    },
+    "horsesCount": "घोड़े"
+  },
+  "messages": {
+    "title": "संदेश",
+    "search": "बातचीत खोजें...",
+    "noMessages": "कोई संदेश नहीं",
+    "typeMessage": "संदेश लिखें..."
+  },
+  "notifications": {
+    "title": "सूचनाएं",
+    "noNotifications": "कोई सूचना नहीं",
+    "markAllRead": "सभी को पढ़ा हुआ चिह्नित करें"
+  },
+  "profile": {
+    "title": "मेरा प्रोफ़ाइल",
+    "editProfile": "प्रोफ़ाइल संपादित करें",
+    "settings": "सेटिंग्स",
+    "language": "भाषा",
+    "notifications": "सूचनाएं",
+    "darkMode": "डार्क मोड",
+    "logout": "लॉग आउट",
+    "about": "ऐप के बारे में"
+  },
+  "common": {
+    "loading": "लोड हो रहा है...",
+    "error": "एक त्रुटि हुई",
+    "retry": "पुनः प्रयास करें",
+    "save": "सहेजें",
+    "cancel": "रद्द करें",
+    "delete": "हटाएं",
+    "edit": "संपादित करें",
+    "add": "जोड़ें",
+    "search": "खोजें",
+    "filter": "फ़िल्टर",
+    "back": "वापस"
+  },
+  "login": {
+    "title": "लॉग इन",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "submit": "लॉग इन",
+    "forgotPassword": "पासवर्ड भूल गए?",
+    "noAccount": "खाता नहीं है?",
+    "register": "रजिस्टर करें"
+  }
+}
